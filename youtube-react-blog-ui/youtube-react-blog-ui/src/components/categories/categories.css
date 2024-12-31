@@ -1,0 +1,16 @@
+.categories {
+    padding: 20px;
+}
+
+.categoriesTitle {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.categoriesPosts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

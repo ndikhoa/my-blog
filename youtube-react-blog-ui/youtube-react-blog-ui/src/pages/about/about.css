@@ -1,0 +1,119 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.aboutHeader {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aboutImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.aboutOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.aboutTitle {
+    font-size: 36px;
+    color: white;
+    z-index: 1;
+}
+
+.aboutContent {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutContent p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.aboutSidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.sidebarItem {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.sidebarList {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebarListItem {
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebarListItem .link {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebarListItem .link:hover {
+    color: teal;
+}
+
+.sidebarSocial {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebarIcon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+.sidebarIcon:hover {
+    color: teal;
+}

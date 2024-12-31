@@ -1,0 +1,123 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contactHeader {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactTitle {
+    font-size: 48px;
+    color: #333;
+}
+
+.contactContent {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactInfoSection,
+.contactFormSection {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Đặt các phần tử thẳng hàng dọc */
+    margin-bottom: 20px;
+}
+
+.contactInfoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contactIcon {
+    font-size: 28px;
+    margin-right: 15px;
+    color: #555;
+}
+
+.contactSocial {
+    margin-bottom: 30px;
+}
+
+.contactSocialTitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contactSocialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.contactSocialIcons .contactIcon {
+    font-size: 28px;
+    margin: 0 15px;
+    color: #555;
+    cursor: pointer;
+}
+
+.contactSocialIcons .contactIcon:hover {
+    color: teal;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contactForm label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contactForm input,
+.contactForm textarea {
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contactForm button {
+    font-size: 20px;
+    padding: 10px 20px;
+    /* Điều chỉnh padding để nút vừa đủ chữ "Send" */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(1, 9, 9, 0.222);
+    color: white;
+    cursor: pointer;
+    width: auto;
+    /* Đặt chiều rộng tự động */
+    align-self: flex-start;
+    /* Đặt nút về phía bên trái */
+}
+
+.contactForm button:hover {
+    background-color: #031010;
+}
